@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  root "dashboard#home"
   resources :tasks
   resources :habits
   devise_for :users
